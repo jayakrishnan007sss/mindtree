@@ -1,0 +1,26 @@
+#callusforenquery{
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+#callusforenquery h1{
+    padding-top: 50px;
+}
+#callusforenquery button{
+    padding: 20px 35px;
+    background-color: #1191eb;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+#callusforenquery button a{
+    color: white;
+}
+#callusforenquery button:hover{
+    background-color: #1c70ab;
+}
+#numbercolor{
+    color: #1191eb;;
+}

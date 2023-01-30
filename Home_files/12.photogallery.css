@@ -1,0 +1,40 @@
+#photogallery{
+    height: 700px;
+}
+.dots{
+    color: #1191eb;
+    font-size: 15px;
+    word-spacing: 4px;
+}
+#photogallery h1 #head{
+    font-size: 35px;
+}
+#photogallery h1{
+    text-align: center;
+}
+#photogallery p{
+    text-align: center;
+    color: rgb(98, 86, 98);
+}
+#galleryroom{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 240px 240px;
+    gap: 10px;
+    justify-content:space-around ;
+    text-align: center;
+    line-height: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    height: 550px;
+    background-color: #f9fafb;
+}
+#galleryroom div>img{
+    width: 350px;
+    height: 240px;
+}
+#photogallery #galleryroom div>img{
+    box-shadow: inset 0 0 5px 5px #1191eb;
+    
+}
+

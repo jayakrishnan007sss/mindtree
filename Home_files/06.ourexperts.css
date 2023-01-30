@@ -1,0 +1,43 @@
+#ourexperts{
+    margin: 50px 150px 50px 150px;
+    height: 600px;
+}
+.dots{
+    color: #1191eb;
+    font-size: 15px;
+    word-spacing: 4px;
+}
+#ourexperts h1 #head{
+    font-size: 35px;
+}
+#ourexperts h1,p{
+    text-align: center;
+}
+#ourexperts p{
+    text-align: center;
+    color: rgb(98, 86, 98);
+}
+#ourexperts #doctors{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-rows: 350px;
+    gap: 10px;
+}
+#doctors>div{
+    margin-left: 20px;
+    height: 430px;
+    background-color: #f1f4f4ed;
+}
+#doctors div img{
+    height: 300px;
+    width: 248px;
+}
+#doctors div h3,p{
+    text-align: center;
+}
+#doctors div p{
+    color: #1191eb;
+}
+
+

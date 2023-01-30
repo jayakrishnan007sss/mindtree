@@ -1,0 +1,36 @@
+#count{
+    height: 300px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 300px;
+    background-color: black;
+    justify-content: space-around;
+    justify-content: center;
+}
+#count>div{
+    margin: 20px;
+    width: 230px;
+}
+#count div>i{
+    font-size: 42px;
+    text-align: center;
+    color: white;
+    margin: 55px;
+    background-color: #1191eb;
+    padding: 10px 20px;
+    
+}
+#count div{
+    color: white;
+    text-align: center;
+}
+#count div span{
+    font-size: 25px;
+    font-weight: bold;
+}
+#count div span:last-child{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1191eb;
+}

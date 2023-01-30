@@ -1,0 +1,48 @@
+#ourtestimonials{
+    height: 500px;
+}
+.dots{
+    color: #1191eb;
+    font-size: 15px;
+    word-spacing: 4px;
+}
+#ourtestimonials h1 #head{
+    font-size: 35px;
+}
+#ourtestimonials h1{
+    text-align: center;
+}
+#ourtestimonials p{
+    text-align: center;
+    color: rgb(98, 86, 98);
+}
+#testi{
+  margin: 50px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 550px 550px;
+  grid-template-rows: 150px 100px;
+  gap: 30px;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+.testirow1{
+    padding: 25px;
+}
+.testirow2{
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.testirow2 i{
+    font-size: 16px;
+}
+#testi fieldset{
+    border-color: #018ff3;
+}
+#testi fieldset legend{
+    color: white;
+    background-color: #018ff3;
+    padding: 3px 9px;
+    font-size: 30px;
+}

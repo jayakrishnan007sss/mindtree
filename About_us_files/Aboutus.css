@@ -1,0 +1,14 @@
+
+header{
+    background-image: url(./About_us_Images/header-bg.jpg);
+    background-image: cover;
+}
+#headercontent{
+    margin: 0px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.391);
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+}

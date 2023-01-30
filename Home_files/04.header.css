@@ -1,0 +1,38 @@
+#header{
+    background-image: url(./Home_Images/bg.png);   
+    background-size: 1470px 600px;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    border: 1px solid white;
+}
+#head-content{
+    height: 300px;
+    color: white;
+    width: 800px;
+    margin-left: 350px;
+    text-align: center;
+    margin-top: 190px;
+}
+#head-content h1{
+    font-size: 70px;  
+    margin-bottom: 0px;
+}
+#head-content p{
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+#head-content button{
+    padding: 10px 10px;
+    background-color: #1191eb;
+    border: none;
+    font-weight: 500;
+}
+#head-content button a{
+    color: white;
+}
+#head-content button:hover{
+    background-color: #1c70ab;
+    
+}

@@ -1,0 +1,51 @@
+#bookappointment{
+    height: 650px;
+    background-color: black;
+}
+#appoint{
+    background-color: white;
+    height: 600px;
+    width: 750px;
+    margin-left: 340px;
+    padding-top: 20px;
+}
+.dots{
+    color: #1191eb;
+    font-size: 15px;
+    word-spacing: 4px;
+}
+#appoint h1 #head{
+    font-size: 35px;
+}
+#appoint h1{
+    text-align: center;
+}
+#appoint p{
+    text-align: center;
+    color: rgb(98, 86, 98);
+}
+#appoint form table{
+    padding: 25px;
+    border-spacing: 30px;
+}
+#appoint form table tr td input,select{
+    height: 35px;
+    width: 300px;
+    border: 1px solid rgb(206, 214, 218);
+}
+#appoint form table tr td textarea{
+    height: 95px;
+    width: 650px;
+}
+#appoint button{
+    padding: 20px 35px;
+    background-color: #1191eb;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 210px;
+}
+#appoint button:hover{
+    background-color: #1c70ab;
+}

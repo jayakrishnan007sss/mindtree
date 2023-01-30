@@ -1,0 +1,57 @@
+#recentblog{
+    height: 750px;
+}
+.dots{
+    color: #1191eb;
+    font-size: 15px;
+    word-spacing: 4px;
+}
+#recentblog h1 #head{
+    font-size: 35px;
+}
+#recentblog h1{
+    text-align: center;
+}
+#recentblog>p{
+    text-align: center;
+    color: rgb(98, 86, 98);
+}
+#feelings{
+    display: flex;
+    grid-template-columns:360px 360px 360px ;
+    grid-template-rows: 480px 480px 480px;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    margin: 25px 120px;
+}
+#feelings div img{
+    height: 240px;
+    width: 358px;
+}
+#feelings div span{
+    padding: 15px;
+}
+#feelings div h3{
+    padding-left: 15px;
+    color: #1191eb;
+    font-weight: bold;
+}
+#feelings div p{
+    padding-left: 15px;
+    text-align: left;
+    line-height: 30px;
+}
+#recentblog #loadblogs{
+    padding: 10px 35px;
+    background-color: white;
+    color: #1191eb;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 44%;
+    border-color: #018ff4;
+}
+#recentblog #loadblogs:hover{
+    background-color: #018ff4;
+    color: white;
+    border: none;
+}

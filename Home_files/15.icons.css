@@ -1,0 +1,24 @@
+#iconshead{
+    display: flex;
+    justify-content: center;
+}
+#iconshead>div{
+    border: 1px solid rgba(123, 121, 121, 0.335);
+    margin-left: 10px;
+}
+.dots{
+    color: #1191eb;
+    font-size: 15px;
+    word-spacing: 4px;
+    padding-bottom: 10px;
+}
+#bandwicons h1 #head{
+    font-size: 35px;
+}
+#bandwicons h1,p{
+    text-align: center;
+}
+#bandwicons p{
+    text-align: center;
+    color: rgb(98, 86, 98);
+}

@@ -1,0 +1,83 @@
+#footer{
+    height: 350px;
+    padding: 100px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 390px 390px 390px;
+    grid-template-rows: 380px;
+    gap: 20px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: left;
+    
+}
+#footer>div{
+    padding: 20px;
+}
+#footer #division1 p{
+    text-align: left;
+}
+#listitems{
+    display: flex;
+    height: 270px;
+    line-height: 35px;
+}
+#listitems div ul li::marker{
+    color: #018ff4;;
+}
+#division1 i{
+    width: 30px;
+    color: #018ff4;
+}
+#division3 table tr td,#division3 table tr th,#division3 table{
+    width: 350px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+#division3 table tr td{
+    text-align: right;
+    line-height: 49px;
+}
+#footerends{
+    height: 80px;
+    background-color: black;
+    display: flex;
+}
+#footerends h4{
+    color: white;
+    margin-left: 200px;
+}
+#endicons{
+    width: 500px;
+    margin-left: 200px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+#endicons>i{
+    background-color: white;
+    padding: 5px;
+    width: 25px;
+    font-size: 15px;
+    margin-left: 20px;
+    text-align: center;
+}
+#endicons>i:first-child{
+    color: #15a5fa;
+}
+#endicons>i:nth-child(2){
+    color: #0f9afb;
+}
+#endicons>i:nth-child(3){
+    color: #e36d01;
+}
+#endicons>i:nth-child(4){
+    background-image: linear-gradient(to bottom,#5551a2,#de1a6a,#f7a13a,#fcbd54);
+    color: white;
+}
+#endicons>i:nth-child(5){
+    color: #ff0000;
+}
+

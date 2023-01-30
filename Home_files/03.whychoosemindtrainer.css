@@ -1,0 +1,70 @@
+#whymindtrainer{
+    margin: 50px 150px 150px 150px;
+    height: 670px;
+}
+#whymindtrainer .dots{
+    color: #1191eb;
+    font-size: 15px;
+    word-spacing: 4px;
+    padding-bottom: 10px;
+}
+#whymindtrainer h1 #head{
+    font-size: 35px;
+}
+#whymindtrainer h1,p{
+    text-align: center;
+}
+#whymindtrainer p{
+    text-align: center;
+    color: rgb(98, 86, 98);
+}
+#details{
+    height: 525px;
+    gap: 30px;
+    grid-template-columns: 550px 552px;
+    display: flex;
+}
+#detailsfirst img, #detailsecond img{
+    width:258px ;
+    height:160px ;
+    border: 1px solid #bebebe;
+}
+#detailsthird img{
+     width: 547px;
+     height:335px ;
+     border: 1px solid #bebebe;
+}
+#detailsbox1{
+    display: grid;
+    grid-template-columns: 260px 260px;
+    grid-template-rows: 160px 335px;
+    gap: 30px;
+    grid-template-areas: 
+    "dfirst dsecond"
+    "dthird dthird";
+}
+#detailsfirst{
+    grid-area: dfirst;
+}
+#detailsecond{
+    grid-area: dsecond;
+}
+#detailsthird{
+    grid-area: dthird;
+}
+#detailsbox2>div{
+    border: 1px solid #bebebe;
+    background-color: #fafafa;
+    text-align: center;
+}
+#detailsbox2{
+    display: grid;
+    grid-template-columns: 260px 260px;
+    grid-template-rows: 248px 248px;
+    gap: 30px;
+}
+#detailsbox2 div i{
+    font-size: 90px;
+    padding-top: 25px;
+    color: #1191eb;
+}

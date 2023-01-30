@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+#aside-top{
+    height: 40px;
+    background-color: #1191eb;
+    display: flex;
+    
+    align-items: center;
+    color: white;
+    
+}
+#aside-top>div{
+    justify-content: center;
+    align-items: center;
+}
+#media{
+    margin-left: 140px;
+    word-spacing: 7px;
+}
+#media>i{
+    background-color: white;
+    padding: 5px;
+    width: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+#media>i:first-child{
+    color: #15a5fa;
+}
+#media>i:nth-child(2){
+    color: #0f9afb;
+}
+#media>i:nth-child(3){
+    color: #e36d01;
+}
+#media>i:nth-child(4){
+    background-image: linear-gradient(to bottom,#5551a2,#de1a6a,#f7a13a,#fcbd54);
+    color: white;
+}
+#media>i:nth-child(5){
+    color: #ff0000;
+}
+#address{    
+    margin-left: 260px;
+    height: 40px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+#contactnum{
+    line-height: 5px;
+    display: flex;
+}
+#contactnum ul li::marker{
+    color: #c7c7c7;
+    font-size: 20px;
+}
+#contactnum ul li{
+    font-size: 15px;
+}
+#aside-top button{
+    background-color: black;
+    padding: 7px 10px;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+#aside-top button a{
+    color: white;
+}
